@@ -1,7 +1,7 @@
 # Hello from Yeoman! (undefined, #undefined)
 CACHE MANIFEST
 
-# Time: Fri Sep 14 2012 16:33:55 GMT+0200 (CEST)
+# Time: Fri Sep 14 2012 16:57:17 GMT+0200 (CEST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/
@@ -23,10 +23,12 @@ CACHE MANIFEST
 
 CACHE:
 http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js
+http://localhost:3501/img/glyphicons-halflings-white.png
+http://localhost:3501/img/glyphicons-halflings.png
 http://www.google-analytics.com/ga.js
 scripts/83fd09f3.amd-app.js
 scripts/vendor/cf69c6f2.modernizr.min.js
-styles/d41d8cd9.main.css
+styles/db2a8ef1.main.css
 
 NETWORK:
 *
