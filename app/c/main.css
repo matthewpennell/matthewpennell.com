@@ -1,2 +1,7 @@
-/* Will be compiled down to a single stylesheet with your sass files */
-@import url('bootstrap.css')
+/* 
+ * This stylesheet will be compiled down to a single stylesheet when distributed. 
+ */
+
+@import url('bootstrap.css');
+
+@import url('nav.css');
