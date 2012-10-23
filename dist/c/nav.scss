@@ -2,13 +2,6 @@
  *   Styles for the primary navigation.
  */
 
-/* Colours for each different role, used in navigation and other places */
-
-$des: purple;
-$dev: green;
-$run: red;
-$wri: blue;
-
 /* Mixins */
 
 @mixin transitions($property: all, $duration: 0.5s, $animation: linear) {
@@ -18,64 +11,27 @@ $wri: blue;
   transition: $property $duration $animation;
 }
 
-.nav {
-  list-style: none;
-  padding: 0;
+nav {
   font: {
-    size: 18px;
-    weight: bold;
+    size: 20px;
+    weight: 300;
   }
   li {
-    line-height: 40px;
     float: left;
     clear: left;
   }
   a {
-    padding: 0 20px;
+    display: block;
+    padding: 10px;
     color: #fff;
     text-decoration: none;
     @include transitions(all, 0.2s, ease);
     &:hover, &:focus {
-      padding-left: 40px;
-      border-right: 5px solid;
+      color: #fff;
+      text-decoration: none;
+      padding-left: 20px;
       background: inherit;
       @include transitions(all, 0.2s, ease);
-    }
-  }
-}
-
-.des {
-  background: $des;
-  a {
-    &:hover, &:focus {
-      border-color: lighten($des, 10%);
-    }
-  }
-}
-
-.dev {
-  background: $dev;
-  a {
-    &:hover, &:focus {
-      border-color: lighten($dev, 10%);
-    }
-  }
-}
-
-.run {
-  background: $run;
-  a {
-    &:hover, &:focus {
-      border-color: lighten($run, 10%);
-    }
-  }
-}
-
-.wri {
-  background: $wri;
-  a {
-    &:hover, &:focus {
-      border-color: lighten($wri, 10%);
     }
   }
 }

@@ -1,0 +1,41 @@
+html, body, #container {
+	background: url(../i/body.png);
+}
+
+body {
+	font-family: "Open Sans", Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+header img {
+	height: 147px;
+	width: 200px;
+	margin: 27px auto 37px;
+	display: block;
+}
+
+/* Override the default Bootstrap behaviour for container */
+#container {
+	padding: 0;
+}
+
+.content {
+	background: inherit;
+}
+
+h1 {
+	float: left;
+	color: #fff;
+	font-weight: 300;
+	font-size: 20px;
+	padding: 0 10px;
+	z-index: 2;
+	margin: 0;
+	position: relative;
+}
+
+article {
+	clear: left;
+	padding-top: 20px;
+	position: relative;
+	top: -12px;
+}
