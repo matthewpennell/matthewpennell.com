@@ -11,7 +11,10 @@
   transition: $property $duration $animation;
 }
 
-nav {
+.site-nav {
+  overflow: hidden;
+  margin: 0 0 47px;
+  list-style: none;
   font: {
     size: 20px;
     weight: 300;
@@ -22,16 +25,57 @@ nav {
   }
   a {
     display: block;
-    padding: 10px;
+    padding: 10px 20px;
     color: #fff;
     text-decoration: none;
     @include transitions(all, 0.2s, ease);
     &:hover, &:focus {
       color: #fff;
       text-decoration: none;
-      padding-left: 20px;
+      padding-left: 40px;
       background: inherit;
-      @include transitions(all, 0.2s, ease);
     }
   }
+}
+
+.external-nav {
+  list-style: none;
+  clear: left;
+  margin: 45px 0 0 30px;
+  overflow: hidden;
+  a {
+    opacity: 0.5;
+    height: 40px;
+    width: 40px;
+    background: {
+      repeat: none;
+      image: url(../i/social-icons.png);
+    }
+    float: left;
+    margin-right: 20px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    @include transitions(all, 0.2s, ease);
+    &.twitter {
+      background-position: -60px 0;
+    }
+    &.linkedin {
+      background-position: -120px 0;
+    }
+    &.dribbble {
+      background-position: -180px 0;
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.nav p {
+  font-size: 11px;
+  color: #666;
+  text-align: center;
+  clear: left;
+  margin-top: 26px;
 }

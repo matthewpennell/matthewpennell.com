@@ -20,22 +20,22 @@ li.wri, h1.wri {
 }
 
 /* line 24, ../../app/c/colour.scss */
-article {
+section {
   border-top: 2px solid;
 }
 /* line 26, ../../app/c/colour.scss */
-article.des {
+section.des {
   border-color: #4286d4;
 }
 /* line 29, ../../app/c/colour.scss */
-article.dev {
+section.dev {
   border-color: #d33454;
 }
 /* line 32, ../../app/c/colour.scss */
-article.run {
+section.run {
   border-color: #14dd41;
 }
 /* line 35, ../../app/c/colour.scss */
-article.wri {
+section.wri {
   border-color: #618341;
 }

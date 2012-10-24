@@ -1,41 +1,62 @@
-html, body, #container {
+/* SASS variable setup */
+
+
+
+/* Rules for generic HTML elements */
+
+html {
 	background: url(../i/body.png);
+  /*background: url(../i/grid.png); /* development grid */
 }
 
 body {
 	font-family: "Open Sans", Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
-header img {
+/* Header */
+
+.header {
+  text-align: center;
+  padding: 27px 0 65px;
+}
+
+.logo {
 	height: 147px;
 	width: 200px;
-	margin: 27px auto 37px;
-	display: block;
+	margin: 0 auto;
 }
 
-/* Override the default Bootstrap behaviour for container */
-#container {
-	padding: 0;
+/* Layout */
+
+.nav {
+  float: left;
+  width: 280px;
+  margin-top: -27px;
 }
 
-.content {
-	background: inherit;
-}
-
-h1 {
-	float: left;
-	color: #fff;
-	font-weight: 300;
-	font-size: 20px;
-	padding: 0 10px;
-	z-index: 2;
-	margin: 0;
-	position: relative;
+section {
+  margin-left: 300px;
 }
 
 article {
-	clear: left;
-	padding-top: 20px;
-	position: relative;
-	top: -12px;
+  max-width: 680px;
+  margin-right: 20px;
+}
+
+.content-header {
+  margin-bottom: -17px;
+}
+
+h1 {
+  display: inline;
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 7px 20px;
+  position: relative;
+  top: -29px;
+}
+
+p {
+  margin-bottom: 20px;
 }

@@ -1,0 +1,66 @@
+/* SASS variable setup */
+/* Rules for generic HTML elements */
+/* line 7, ../../app/c/layout.scss */
+html {
+  background: url(../i/51b0683f.body.png);
+  /*background: url(../i/d986b8af.grid.png); /* development grid */
+}
+
+/* line 12, ../../app/c/layout.scss */
+body {
+  font-family: "Open Sans", Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+/* Header */
+/* line 18, ../../app/c/layout.scss */
+.header {
+  text-align: center;
+  padding: 27px 0 65px;
+}
+
+/* line 23, ../../app/c/layout.scss */
+.logo {
+  height: 147px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+/* Layout */
+/* line 31, ../../app/c/layout.scss */
+.nav {
+  float: left;
+  width: 280px;
+  margin-top: -27px;
+}
+
+/* line 37, ../../app/c/layout.scss */
+section {
+  margin-left: 300px;
+}
+
+/* line 41, ../../app/c/layout.scss */
+article {
+  max-width: 680px;
+  margin-right: 20px;
+}
+
+/* line 46, ../../app/c/layout.scss */
+.content-header {
+  margin-bottom: -17px;
+}
+
+/* line 50, ../../app/c/layout.scss */
+h1 {
+  display: inline;
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 7px 20px;
+  position: relative;
+  top: -29px;
+}
+
+/* line 60, ../../app/c/layout.scss */
+p {
+  margin-bottom: 20px;
+}
