@@ -2066,7 +2066,7 @@ var requirejs, require, define;
 
 define('app',[], function () {
 	// Basic click interception
-	$('nav a').click(function () {
+	$('.site-nav a').click(function () {
 		var url = this.href;
 		$.ajax(url, {
 			error: function (obj, status, error) {
