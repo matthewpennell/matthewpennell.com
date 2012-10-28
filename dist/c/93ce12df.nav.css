@@ -13,33 +13,31 @@
 /* line 22, ../../app/c/nav.scss */
 .site-nav li {
   float: left;
-  clear: left;
 }
-/* line 26, ../../app/c/nav.scss */
+/* line 25, ../../app/c/nav.scss */
 .site-nav a {
   display: block;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
 }
-/* line 32, ../../app/c/nav.scss */
+/* line 30, ../../app/c/nav.scss */
 .site-nav a:hover, .site-nav a:focus {
   color: #fff;
   text-decoration: none;
-  padding-left: 40px;
   background: inherit;
 }
 
-/* line 41, ../../app/c/nav.scss */
+/* line 38, ../../app/c/nav.scss */
 .external-nav {
   list-style: none;
-  clear: left;
-  margin: 45px 0 0 30px;
   overflow: hidden;
+  margin: 0 auto;
+  width: 220px;
+}
+/* line 43, ../../app/c/nav.scss */
+.external-nav li:last-child a {
+  margin-right: 0;
 }
 /* line 46, ../../app/c/nav.scss */
 .external-nav a {
@@ -76,7 +74,7 @@
 }
 
 /* line 75, ../../app/c/nav.scss */
-.nav p {
+footer p {
   font-size: 11px;
   color: #666;
   text-align: center;

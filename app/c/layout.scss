@@ -28,19 +28,8 @@ body {
 
 /* Layout */
 
-.nav {
-  float: left;
-  width: 280px;
-  margin-top: -27px;
-}
-
-section {
-  margin-left: 300px;
-}
-
 article {
-  max-width: 680px;
-  margin-right: 20px;
+  padding: 0 20px;
 }
 
 .content-header {
@@ -55,8 +44,13 @@ h1 {
   padding: 7px 20px;
   position: relative;
   top: -29px;
+  margin-left: -20px;
 }
 
 p {
   margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
 }

@@ -21,18 +21,15 @@
   }
   li {
     float: left;
-    clear: left;
   }
   a {
     display: block;
     padding: 10px 20px;
     color: #fff;
     text-decoration: none;
-    @include transitions(all, 0.2s, ease);
     &:hover, &:focus {
       color: #fff;
       text-decoration: none;
-      padding-left: 40px;
       background: inherit;
     }
   }
@@ -40,9 +37,12 @@
 
 .external-nav {
   list-style: none;
-  clear: left;
-  margin: 45px 0 0 30px;
   overflow: hidden;
+  margin: 0 auto;
+  width: 220px;
+  li:last-child a {
+    margin-right: 0;
+  }
   a {
     opacity: 0.5;
     height: 40px;
@@ -72,7 +72,7 @@
   }
 }
 
-.nav p {
+footer p {
   font-size: 11px;
   color: #666;
   text-align: center;
