@@ -11,22 +11,42 @@
 
 define([], function () {
 
-	// Basic click interception
+	// Basic click interception for site navigation.
 	$('.site-nav a').click(function () {
-		var url = this.href;
-		$('#ajax-target').load(url + ' section', function () {
-			history.pushState({}, '', url);
-			_gaq.push['_trackPageview', url];
-		});
+		loadSection(this.href, false);
 		return false;
 	});
 	
-	// Make the Back button work with Ajax-powered HTML5 pushState.
-	addEvent(window, 'popstate', function (event) {
-		if (event.state) {
-			
-		}
-		
+	function loadSection(url, back) {
+		$.ajax({
+			complete: function (jqXHR, textStatus) {
+				
+			},
+			error: function (jqXHR, textStatus, errorThrown) {
+				
+			},
+			success: function (data, textStatus, jqXHR) {
+				$('#ajax-target').animate({
+					left: '33%',
+					opacity: 0
+				}, 400, function () {
+					$(this).empty().append($(data).find('section')).animate({
+						left: 0,
+						opacity: 1
+					}, 400);
+				});
+				if (!back) {
+					history.pushState(null, null, url);
+				}
+				_gaq.push['_trackPageview', url];
+			},
+			url: url
+		});
+	}
+	
+	// Handle Back button usage.
+	window.addEventListener("popstate", function (e) {
+    	loadSection(location.pathname, true);
 	});
-
+	
 });

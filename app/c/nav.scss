@@ -14,6 +14,8 @@
 .site-nav {
   font-family: "Open Sans", Futura, "Trebuchet MS", Arial, sans-serif;
   overflow: hidden;
+  position: relative;
+  z-index: 99;
   margin: 0 0 47px;
   list-style: none;
   font: {
