@@ -1,0 +1,86 @@
+/*
+ *   Styles for the primary navigation.
+ */
+/* Mixins */
+/* line 14, ../../app/c/nav.scss */
+.site-nav {
+  font-family: "Open Sans", Futura, "Trebuchet MS", Arial, sans-serif;
+  overflow: hidden;
+  position: relative;
+  z-index: 99;
+  margin: 0 0 47px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 300;
+}
+/* line 25, ../../app/c/nav.scss */
+.site-nav li {
+  float: left;
+}
+/* line 28, ../../app/c/nav.scss */
+.site-nav a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+/* line 33, ../../app/c/nav.scss */
+.site-nav a:hover, .site-nav a:focus {
+  color: #fff;
+  text-decoration: none;
+  background: inherit;
+}
+
+/* line 41, ../../app/c/nav.scss */
+.external-nav {
+  list-style: none;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 220px;
+}
+/* line 46, ../../app/c/nav.scss */
+.external-nav li:last-child a {
+  margin-right: 0;
+}
+/* line 49, ../../app/c/nav.scss */
+.external-nav a {
+  opacity: 0.5;
+  height: 40px;
+  width: 40px;
+  background-repeat: none;
+  background-image: url(../i/94cdbedc.social-icons.png);
+  float: left;
+  margin-right: 20px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+/* line 63, ../../app/c/nav.scss */
+.external-nav a.twitter {
+  background-position: -60px 0;
+}
+/* line 66, ../../app/c/nav.scss */
+.external-nav a.linkedin {
+  background-position: -120px 0;
+}
+/* line 69, ../../app/c/nav.scss */
+.external-nav a.dribbble {
+  background-position: -180px 0;
+}
+/* line 72, ../../app/c/nav.scss */
+.external-nav a:hover {
+  opacity: 1;
+}
+
+/* line 78, ../../app/c/nav.scss */
+footer p {
+  font-size: 11px;
+  color: #666;
+  text-align: center;
+  clear: left;
+  margin-top: 26px;
+}
