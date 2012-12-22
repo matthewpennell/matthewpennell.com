@@ -1,0 +1,77 @@
+/* SASS variable setup */
+/* Rules for generic HTML elements */
+/* line 7, ../../app/c/layout.scss */
+html {
+  background: url(../i/51b0683f.body.png);
+  /*background: url(../i/d986b8af.grid.png); /* development grid */
+}
+
+/* line 12, ../../app/c/layout.scss */
+body {
+  font: 20px/1.5 Georgia, Cambria, "Times New Roman", Times, serif;
+  color: #333;
+}
+
+/* line 17, ../../app/c/layout.scss */
+a {
+  text-decoration: underline;
+}
+
+/* Header */
+/* line 23, ../../app/c/layout.scss */
+.header {
+  text-align: center;
+  padding: 27px 0 65px;
+}
+
+/* line 28, ../../app/c/layout.scss */
+.logo {
+  height: 147px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+/* Layout */
+/* line 36, ../../app/c/layout.scss */
+article {
+  padding: 0 20px;
+}
+
+/* line 40, ../../app/c/layout.scss */
+.content-header {
+  margin-bottom: -17px;
+}
+
+/* line 44, ../../app/c/layout.scss */
+h1, h2 {
+  font-family: "Open Sans", Futura, "Trebuchet MS", Arial, sans-serif;
+  display: inline;
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 7px 20px;
+  position: relative;
+  top: -29px;
+  margin-left: -20px;
+}
+
+/* line 56, ../../app/c/layout.scss */
+.sub {
+  margin-top: 60px;
+}
+
+/* line 60, ../../app/c/layout.scss */
+p {
+  margin-bottom: 20px;
+}
+
+/* line 64, ../../app/c/layout.scss */
+.lead {
+  font-size: 30px;
+  line-height: 1.333;
+}
+
+/* line 69, ../../app/c/layout.scss */
+footer {
+  text-align: center;
+}

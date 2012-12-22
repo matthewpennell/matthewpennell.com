@@ -1,0 +1,71 @@
+/* SASS variable setup */
+
+
+
+/* Rules for generic HTML elements */
+
+html {
+	background: url(../i/body.png);
+  /*background: url(../i/grid.png); /* development grid */
+}
+
+body {
+  font: 20px/1.5 Georgia, Cambria, "Times New Roman", Times, serif;
+	color: #333;
+}
+
+a {
+  text-decoration: underline;
+}
+
+/* Header */
+
+.header {
+  text-align: center;
+  padding: 27px 0 65px;
+}
+
+.logo {
+	height: 147px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+/* Layout */
+
+article {
+  padding: 0 20px;
+}
+
+.content-header {
+  margin-bottom: -17px;
+}
+
+h1, h2 {
+  font-family: "Open Sans", Futura, "Trebuchet MS", Arial, sans-serif;
+  display: inline;
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 7px 20px;
+  position: relative;
+  top: -29px;
+  margin-left: -20px;
+}
+
+.sub {
+  margin-top: 60px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.lead {
+  font-size: 30px;
+  line-height: 1.333;
+}
+
+footer {
+  text-align: center;
+}
