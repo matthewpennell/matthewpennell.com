@@ -60,6 +60,9 @@ li.hac, .hac h1, .hac h2 {
   }
   em, a {
     color: $dev;
+    &:hover, &:focus {
+      color: lighten($dev, 10%);
+    }
   }
 }
 
@@ -78,6 +81,9 @@ li.hac, .hac h1, .hac h2 {
   }
   em, a {
     color: $wri;
+    &:hover, &:focus {
+      color: lighten($wri, 10%);
+    }
   }
 }
 
@@ -87,6 +93,9 @@ li.hac, .hac h1, .hac h2 {
   }
   em, a {
     color: $mus;
+    &:hover, &:focus {
+      color: lighten($mus, 10%);
+    }
   }
 }
 
@@ -96,6 +105,9 @@ li.hac, .hac h1, .hac h2 {
   }
   em, a {
     color: $rea;
+    &:hover, &:focus {
+      color: lighten($rea, 40%);
+    }
   }
 }
 
