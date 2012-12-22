@@ -1,9 +1,13 @@
 /* Colours for each different role, used in navigation and other places */
 
 $des: #4286d4;
-$dev: #d33454;
-$run: #4DD8D6;
+$dev: #d34d33;
+$run: #14dd41;
 $wri: #618341;
+$mus: #c42828;
+$rea: #140341;
+$pho: #e610f7;
+$hac: #702a41;
 
 li.des, .des h1, .des h2 {
   background: $des;
@@ -19,6 +23,22 @@ li.run, .run h1, .run h2 {
 
 li.wri, .wri h1, .wri h2 {
   background: $wri;
+}
+
+li.mus, .mus h1, .mus h2 {
+  background: $mus;
+}
+
+li.rea, .rea h1, .rea h2 {
+  background: $rea;
+}
+
+li.pho, .pho h1, .pho h2 {
+  background: $pho;
+}
+
+li.hac, .hac h1, .hac h2 {
+  background: $hac;
 }
 
 .content-header {
@@ -58,6 +78,42 @@ li.wri, .wri h1, .wri h2 {
   }
   em, a {
     color: $wri;
+  }
+}
+
+.mus {
+  .content-header {
+    border-color: $mus;
+  }
+  em, a {
+    color: $mus;
+  }
+}
+
+.rea {
+  .content-header {
+    border-color: $rea;
+  }
+  em, a {
+    color: $rea;
+  }
+}
+
+.pho {
+  .content-header {
+    border-color: $pho;
+  }
+  em, a {
+    color: $pho;
+  }
+}
+
+.hac {
+  .content-header {
+    border-color: $hac;
+  }
+  em, a {
+    color: $hac;
   }
 }
 
