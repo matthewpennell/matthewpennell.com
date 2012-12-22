@@ -9,15 +9,15 @@ li.des, .des h1, .des h2 {
   background: $des;
 }
 
-li.dev, .dev h1 {
+li.dev, .dev h1, .dev h2 {
   background: $dev;
 }
 
-li.run, .dev h1 {
+li.run, .run h1, .run h2 {
   background: $run;
 }
 
-li.wri, .wri h1 {
+li.wri, .wri h1, .wri h2 {
   background: $wri;
 }
 
@@ -29,7 +29,41 @@ li.wri, .wri h1 {
 	.content-header {
 		border-color: $des;
 	}
-	em {
+	em, a {
 	  color: $des;
 	}
 }
+
+.dev {
+  .content-header {
+    border-color: $dev;
+  }
+  em, a {
+    color: $dev;
+  }
+}
+
+.run {
+  .content-header {
+    border-color: $run;
+  }
+  em, a {
+    color: $run;
+  }
+}
+
+.wri {
+  .content-header {
+    border-color: $wri;
+  }
+  em, a {
+    color: $wri;
+  }
+}
+
+// Section-specific colour coded links.
+
+a.dev {
+  color: $dev;
+}
+
