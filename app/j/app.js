@@ -11,42 +11,4 @@
 
 define([], function () {
 
-	// Basic click interception for site navigation.
-	$('.site-nav a').click(function () {
-		loadSection(this.href, false);
-		return false;
-	});
-	
-	function loadSection(url, back) {
-		$.ajax({
-			complete: function (jqXHR, textStatus) {
-				
-			},
-			error: function (jqXHR, textStatus, errorThrown) {
-				
-			},
-			success: function (data, textStatus, jqXHR) {
-				$('#ajax-target').animate({
-					left: '33%',
-					opacity: 0
-				}, 400, function () {
-					$(this).empty().append($(data).find('section')).animate({
-						left: 0,
-						opacity: 1
-					}, 400);
-				});
-				if (!back) {
-					history.pushState(null, null, url);
-				}
-				_gaq.push['_trackPageview', url];
-			},
-			url: url
-		});
-	}
-	
-	// Handle Back button usage.
-	window.addEventListener("popstate", function (e) {
-    	loadSection(location.pathname, true);
-	});
-	
 });
