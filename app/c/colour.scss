@@ -5,37 +5,31 @@ $dev: #d33454;
 $run: #4DD8D6;
 $wri: #618341;
 
-li.des, h1.des {
+li.des, .des h1, .des h2 {
   background: $des;
 }
 
-li.dev, h1.dev {
+li.dev, .dev h1 {
   background: $dev;
 }
 
-li.run, h1.run {
+li.run, .dev h1 {
   background: $run;
 }
 
-li.wri, h1.wri {
+li.wri, .wri h1 {
   background: $wri;
 }
 
-section {
-	border-top: 2px solid;
-	&.des {
+.content-header {
+  border-top: 2px solid;
+}
+
+.des {
+	.content-header {
 		border-color: $des;
 	}
-	&.des em {
+	em {
 	  color: $des;
-	}
-	&.dev {
-		border-color: $dev;
-	}
-	&.run {
-		border-color: $run;
-	}
-	&.wri {
-		border-color: $wri;
 	}
 }

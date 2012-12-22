@@ -34,13 +34,20 @@
   }
   
   article {
+    padding: 0;
+  }
+  
+  article p {
     max-width: 680px;
     margin-right: 20px;
-    padding: 0;
   }
   
   h1 {
     margin-left: 0;
+  }
+  
+  .sub {
+    margin-left: 120px;
   }
   
   footer {

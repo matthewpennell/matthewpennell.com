@@ -37,7 +37,7 @@ article {
   margin-bottom: -17px;
 }
 
-h1 {
+h1, h2 {
   font-family: "Open Sans", Futura, "Trebuchet MS", Arial, sans-serif;
   display: inline;
   color: #fff;
@@ -49,8 +49,8 @@ h1 {
   margin-left: -20px;
 }
 
-h2 {
-  font-size: 30px;
+.sub {
+  margin-top: 60px;
 }
 
 p {
@@ -59,7 +59,7 @@ p {
 
 .lead {
   font-size: 30px;
-  line-height: 1.5;
+  line-height: 1.333;
 }
 
 footer {
