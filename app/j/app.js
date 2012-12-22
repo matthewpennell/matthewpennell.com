@@ -6,22 +6,27 @@
  * paths to dependencies, expressed without a suffix (e.g. ['./ajax']). These objects are
  * then made available within the function by passing them as named parameters (e.g. function (ajax) {...}; )
  * 
- * The return value represents the object, value or function to be used witin main.js.
+ * The return value represents the object, value or function to be used within main.js.
  */
 
 define([], function () {
+
 	// Basic click interception
 	$('.site-nav a').click(function () {
 		var url = this.href;
-		$.ajax(url, {
-			error: function (obj, status, error) {
-				// TODO: Add error handling code here.
-			},
-			success: function (data, status, obj) {
-				$('.content').html($(data).filter('.content'));
-				history.pushState({}, '', url);
-			}
+		$('#ajax-target').load(url + ' section', function () {
+			history.pushState({}, '', url);
+			_gaq.push['_trackPageview', url];
 		});
 		return false;
 	});
+	
+	// Make the Back button work with Ajax-powered HTML5 pushState.
+	addEvent(window, 'popstate', function (event) {
+		if (event.state) {
+			
+		}
+		
+	});
+
 });

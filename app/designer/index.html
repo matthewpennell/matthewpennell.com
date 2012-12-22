@@ -18,10 +18,10 @@
 		
 		<!-- TODO: Need to add favicon.ico and apple-touch-icon.png -->
 		
-		<link rel="stylesheet" href="c/main.css">
+		<link rel="stylesheet" href="/c/main.css">
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600">
 		
-		<script src="j/vendor/modernizr.min.js"></script>
+		<script src="/j/vendor/modernizr.min.js"></script>
 	
 	</head>
 
@@ -32,14 +32,14 @@
 	<![endif]-->
 	
 	<header class="header">
-		<a class="logo" href="/" title="Return to the home page"><img src="i/logo.png" alt="matthewpennell.com logo"></a>
+		<a class="logo" href="/" title="Return to the home page"><img src="/i/logo.png" alt="matthewpennell.com logo"></a>
 	</header>
 	
 	<div class="nav">
 		
 		<nav role="navigation">
 			<ul class="site-nav">
-				<li class="des"><a href="/designer">Designer</a></li>
+				<li class="des"><a href="/designer/">Designer</a></li>
 				<li class="dev"><a href="/front-end-developer">Front End Developer</a></li>
 				<li class="wri"><a href="/writer">Writer</a></li>
 				<li class="run"><a href="/runner">Runner</a></li>
@@ -48,21 +48,31 @@
 		
 	</div>
 	
-	<section class="content-wrapper des">
-
-		<article class="content">
-			
-			<header class="content-header">
-				<h1 class="des">Designer</h1>
-			</header>
-			
-			<p>Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed.</p>
-			
-			<p>Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed.</p>
-
-		</article>
+	<div id="ajax-target">
 		
-	</section>
+		<section class="content-wrapper des">
+	
+			<article class="content">
+				
+				<header class="content-header">
+					<h1 class="des">Designer</h1>
+				</header>
+				
+				<p class="lead">Despite it having been part of my job title for over ten years, design is not something that comes easily for me. Coding I can do with my eyes closed, headphones on, for hours on end; but design—good design—takes time … and a lot of effort.</p>
+				
+				<p>Good design starts with understanding the problem you are trying to solve. There are various tools available to help here: <em>traffic analysis</em> (Google Analytics et al) can reveal the broad picture, patterns and trends; <em>usability testing</em> reveals misconceptions and bugs, even with a surprisingly small group; and <em>personas</em> can help even the most empathic designer step into their users’ shoes.</p>
+				
+				<p>I use them all.</p>
+
+				<h2>Work Samples</h2>
+				
+				<p>Much of my current work is commercially sensitive and cannot be shared publicly. Instead, here are some mockups to enjoy; there were no business problems to solve, but at least it should demonstrate that my Photoshop license shouldn’t be revoked just yet.</p>
+	
+			</article>
+			
+		</section>
+	
+	</div>
 	
 	<footer>
 
@@ -78,7 +88,7 @@
 	</footer>
 		
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="j/vendor/jquery.min.js"><\/script>')</script>
+	<script>window.jQuery || document.write('<script src="/j/vendor/jquery.min.js"><\/script>')</script>
 	
 	<script>
 		var _gaq=[['_setAccount','UA-71160-18'],['_trackPageview']];
@@ -87,8 +97,8 @@
 		s.parentNode.insertBefore(g,s)}(document,'script'));
 	</script>
 	
-	<!-- build:js j/amd-app.js -->
-	<script data-main="j/main" src="j/vendor/require.js"></script>
+	<!-- build:js /j/amd-app.js -->
+	<script data-main="/j/main" src="/j/vendor/require.js"></script>
 	<!-- endbuild -->
 
 </body>

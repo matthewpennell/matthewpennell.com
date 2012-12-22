@@ -2,7 +2,7 @@
 
 $des: #4286d4;
 $dev: #d33454;
-$run: #14dd41;
+$run: #4DD8D6;
 $wri: #618341;
 
 li.des, h1.des {
@@ -25,6 +25,9 @@ section {
 	border-top: 2px solid;
 	&.des {
 		border-color: $des;
+	}
+	&.des em {
+	  color: $des;
 	}
 	&.dev {
 		border-color: $dev;

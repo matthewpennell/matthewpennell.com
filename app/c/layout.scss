@@ -10,7 +10,8 @@ html {
 }
 
 body {
-	font-family: "Open Sans", Futura, "Trebuchet MS", Arial, sans-serif;
+  font: 20px/1.5 Georgia, Cambria, "Times New Roman", Times, serif;
+	color: #333;
 }
 
 /* Header */
@@ -37,6 +38,7 @@ article {
 }
 
 h1 {
+  font-family: "Open Sans", Futura, "Trebuchet MS", Arial, sans-serif;
   display: inline;
   color: #fff;
   font-weight: 300;
@@ -47,8 +49,17 @@ h1 {
   margin-left: -20px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 p {
   margin-bottom: 20px;
+}
+
+.lead {
+  font-size: 30px;
+  line-height: 1.5;
 }
 
 footer {
