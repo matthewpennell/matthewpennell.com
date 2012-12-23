@@ -1,56 +1,56 @@
 /* Mixins */
 /* Responsive breakpoints */
 @media only screen and (min-width: 768px) {
-  /* line 14, ../../app/c/responsive.scss */
+  /* line 14, ../../app/c/4.responsive.scss */
   .nav {
     float: left;
     width: 280px;
     margin-top: -27px;
   }
 
-  /* line 21, ../../app/c/responsive.scss */
+  /* line 21, ../../app/c/4.responsive.scss */
   .site-nav li {
     clear: left;
   }
-  /* line 24, ../../app/c/responsive.scss */
+  /* line 24, ../../app/c/4.responsive.scss */
   .site-nav a {
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
   }
-  /* line 26, ../../app/c/responsive.scss */
+  /* line 26, ../../app/c/4.responsive.scss */
   .site-nav a:hover, .site-nav a:focus {
     padding-left: 40px;
   }
 
-  /* line 32, ../../app/c/responsive.scss */
+  /* line 32, ../../app/c/4.responsive.scss */
   section {
     margin-left: 300px;
   }
 
-  /* line 36, ../../app/c/responsive.scss */
+  /* line 36, ../../app/c/4.responsive.scss */
   article {
     padding: 0;
   }
 
-  /* line 40, ../../app/c/responsive.scss */
+  /* line 40, ../../app/c/4.responsive.scss */
   article p {
     max-width: 680px;
     margin-right: 20px;
   }
 
-  /* line 45, ../../app/c/responsive.scss */
+  /* line 45, ../../app/c/4.responsive.scss */
   h1 {
     margin-left: 0;
   }
 
-  /* line 49, ../../app/c/responsive.scss */
+  /* line 49, ../../app/c/4.responsive.scss */
   .sub {
     margin-left: 120px;
   }
 
-  /* line 53, ../../app/c/responsive.scss */
+  /* line 53, ../../app/c/4.responsive.scss */
   footer {
     position: absolute;
     width: 280px;

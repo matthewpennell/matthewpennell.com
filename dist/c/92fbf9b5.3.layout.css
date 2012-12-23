@@ -1,35 +1,35 @@
 /* SASS variable setup */
 /* Rules for generic HTML elements */
-/* line 7, ../../app/c/layout.scss */
+/* line 7, ../../app/c/3.layout.scss */
 html {
   background: url(../i/51b0683f.body.png);
   /*background: url(../i/d986b8af.grid.png); /* development grid */
   overflow-x: hidden;
 }
 
-/* line 13, ../../app/c/layout.scss */
+/* line 13, ../../app/c/3.layout.scss */
 body {
   font: 20px/1.5 Georgia, Cambria, "Times New Roman", Times, serif;
   color: #333;
 }
 
-/* line 18, ../../app/c/layout.scss */
+/* line 18, ../../app/c/3.layout.scss */
 a {
   text-decoration: underline;
 }
-/* line 20, ../../app/c/layout.scss */
+/* line 20, ../../app/c/3.layout.scss */
 a:hover, a:focus {
   text-decoration: none;
 }
 
 /* Header */
-/* line 27, ../../app/c/layout.scss */
+/* line 27, ../../app/c/3.layout.scss */
 .header {
   text-align: center;
   padding: 27px 0 65px;
 }
 
-/* line 32, ../../app/c/layout.scss */
+/* line 32, ../../app/c/3.layout.scss */
 .logo {
   height: 147px;
   width: 200px;
@@ -37,22 +37,22 @@ a:hover, a:focus {
 }
 
 /* Layout */
-/* line 40, ../../app/c/layout.scss */
+/* line 40, ../../app/c/3.layout.scss */
 #ajax-target {
   position: relative;
 }
 
-/* line 44, ../../app/c/layout.scss */
+/* line 44, ../../app/c/3.layout.scss */
 article {
   padding: 0 20px;
 }
 
-/* line 48, ../../app/c/layout.scss */
+/* line 48, ../../app/c/3.layout.scss */
 .content-header {
   margin-bottom: -17px;
 }
 
-/* line 52, ../../app/c/layout.scss */
+/* line 52, ../../app/c/3.layout.scss */
 h1, h2 {
   font-family: "Open Sans", Futura, "Trebuchet MS", Arial, sans-serif;
   display: inline;
@@ -65,23 +65,23 @@ h1, h2 {
   margin-left: -20px;
 }
 
-/* line 64, ../../app/c/layout.scss */
+/* line 64, ../../app/c/3.layout.scss */
 .sub {
   margin-top: 60px;
 }
 
-/* line 68, ../../app/c/layout.scss */
+/* line 68, ../../app/c/3.layout.scss */
 p {
   margin-bottom: 20px;
 }
 
-/* line 72, ../../app/c/layout.scss */
+/* line 72, ../../app/c/3.layout.scss */
 .lead {
   font-size: 30px;
   line-height: 1.333;
 }
 
-/* line 77, ../../app/c/layout.scss */
+/* line 77, ../../app/c/3.layout.scss */
 footer {
   text-align: center;
 }

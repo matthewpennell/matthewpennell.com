@@ -19,18 +19,20 @@ require(['feed'], function (feed) {
 				
 			},
 			success: function (data, textStatus, jqXHR) {
+				$data = $(data);
 				$('#ajax-target').animate({
 					left: '33%',
 					opacity: 0
 				}, 400, function () {
-					$(this).empty().append($(data).find('section')).animate({
+					$(this).empty().append($data.find('section')).animate({
 						left: 0,
 						opacity: 1
 					}, 400);
+					$('title').empty().append($data.find('title'));
 				});
 				history.pushState({
 					mp: true
-				}, null, url);
+				}, title, url);
 				_gaq.push['_trackPageview', url];
 				// Call any section specific feeds.
 				populateFeeds(title);
@@ -47,7 +49,6 @@ require(['feed'], function (feed) {
 	});
 	
 	function populateFeeds(title) {
-		console.log(title);
 		switch(title) {
 			case 'Musician':
 				feed.lastfm();
