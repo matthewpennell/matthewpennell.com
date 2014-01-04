@@ -139,7 +139,7 @@ h1 a {
 
 .post-info {
 	float: left;
-	margin-top: -40px;
+	margin: -40px 20px 0 0;
 	width: 300px;
 }
 
@@ -204,6 +204,9 @@ footer {
 	.container {
 		max-width: 600px;
 	}
+	.article {
+		margin-left: 0;
+	}
 }
 
 @media all and (max-width: 600px) {
@@ -212,6 +215,10 @@ footer {
 	}
 	.empty {
 		height: 20px !important;
+	}
+	.meta {
+		text-align: left;
+		padding-left: 10px;
 	}
 	nav {
 		display: block;
