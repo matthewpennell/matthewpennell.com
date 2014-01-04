@@ -1,0 +1,180 @@
+/**
+ *  Styles for matthewpennell.com
+ * hand-crafted with love and care
+ *               by             
+ *      Matthew Pennell, Esq.     
+ */
+
+/* @group RESET */
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video, a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: inherit;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+	display: block;
+}
+
+html {
+	font-size: 100%; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%;
+	overflow-y: scroll;
+}
+
+p {
+	margin: 0 0 30px;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	border: 0; 
+	-ms-interpolation-mode: bicubic; 
+	vertical-align: middle;
+}
+
+* {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+/* @end */
+
+/* @group STRUCTURE */
+
+.container {
+	font: 20px/30px Sanchez, Helvetica, Arial, sans-serif; 
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+.empty {
+	list-style: none;
+	width: 300px;
+}
+
+/* @end */
+
+/* @group HEADER */
+
+header {
+	background: #f4dd4b;
+	padding: 80px 0;
+}
+
+h1 a {
+	background: url(/i/h1.png);
+	display: block;
+	height: 225px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 194px;
+}
+
+/* @end */
+
+/* @group POSTS */
+
+.posts {
+	margin-top: -80px;
+}
+
+.post {
+	background-color: #eee;
+	background-position: 50%;
+	list-style: none;
+	min-height: 200px;
+	position: relative;
+	width: 300px;
+}
+
+li.post {
+	border: 10px solid #fff;
+}
+
+.links {
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.category {
+	color: #fff;
+	padding: 10px;
+	margin: 0 10px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+	text-transform: capitalize;
+}
+
+.design, .design .category { background-color: #134286; }
+.ux, .ux .category     { background-color: #f4184d; }
+
+.category acronym {
+	text-transform: uppercase;
+}
+
+.title {
+	color: #fff;
+	display: block;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px 20px;
+	text-decoration: none;
+	width: 100%;
+}
+
+/* @end */
+
+/* @group INDIVIDUAL POST */
+
+.post-info {
+	width: 300px;
+	float: left;
+}
+
+.meta {
+	color: #999;
+	margin: 10px 0;
+	font-size: 12px;
+	text-align: right;
+}
+
+.article {
+	margin-left: 320px;
+	padding-top: 40px;
+}
+
+/* @end */
+
+/* @group NAVIGATION + FOOTER */
+
+nav {
+	clear: left;
+}
+
+nav a {
+	float: left;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+.badge {
+	background: #eee;
+	border-radius: 20px;
+	padding: 0 10px;
+}
+
+/* @end */

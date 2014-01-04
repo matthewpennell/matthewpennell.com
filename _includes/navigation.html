@@ -1,0 +1,12 @@
+<nav>
+	<ul>
+		{% for category in site.categories %}
+			<li>
+				<a href="/{{category[0]}}/">
+					{{category[0]}}
+					<span class="badge">{{category[1].size}}</span>
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+</nav>

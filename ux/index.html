@@ -1,0 +1,18 @@
+---
+layout: default
+title: matthewpennell.com | UX trouvé
+category: ux
+---
+
+<div class="tiles">
+	<ol class="posts" style="margin: 40px; background: #eee; padding: 10px;">
+		{% for post in site.posts %}
+			{% if post.categories contains 'ux' %}
+				<li>
+					<a href="{{ post.category }}">{{ post.category }}</a>
+					<a href="{{ post.url }}">{{ post.title }}</a>
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ol>
+</div>
