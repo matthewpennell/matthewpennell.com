@@ -1,18 +1,25 @@
 ---
 layout: default
-title: matthewpennell.com | UX trouvé
+title: UX | matthewpennell.com | UX trouvé
 category: ux
 ---
 
-<div class="tiles">
-	<ol class="posts" style="margin: 40px; background: #eee; padding: 10px;">
-		{% for post in site.posts %}
-			{% if post.categories contains 'ux' %}
-				<li>
-					<a href="{{ post.category }}">{{ post.category }}</a>
-					<a href="{{ post.url }}">{{ post.title }}</a>
-				</li>
-			{% endif %}
-		{% endfor %}
-	</ol>
-</div>
+<ol class="posts js-masonry" data-masonry-options='{ "columnWidth": 300, "itemSelector": "li" }'>
+	<li class="empty" style="height: 40px;"></li>
+	<li class="empty" style="height: 60px;"></li>
+	<li class="empty" style="height: 20px;"></li>
+	{% for post in site.posts %}
+		{% if post.categories contains 'ux' %}
+			<li class="post {{ post.category }}" style="background-image: url(/i/{{ post.image }}); height: {{ post.height }}px;">
+				<div class="links">
+					<a href="/{{ post.category }}/" class="category">
+						{% if post.category == 'ux' %}<acronym>{% endif %}
+						{{ post.category }}
+						{% if post.category == 'ux' %}</acronym>{% endif %}
+					</a>
+					<a href="{{ post.url }}" class="title">{{ post.title }}</a>
+				</div>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ol>
