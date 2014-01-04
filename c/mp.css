@@ -95,14 +95,11 @@ h1 a {
 .post {
 	background-color: #eee;
 	background-position: 50%;
+	border: 10px solid #fff;
 	list-style: none;
 	min-height: 200px;
 	position: relative;
 	width: 300px;
-}
-
-li.post {
-	border: 10px solid #fff;
 }
 
 .links {
@@ -141,14 +138,16 @@ li.post {
 /* @group INDIVIDUAL POST */
 
 .post-info {
-	width: 300px;
 	float: left;
+	margin-top: -40px;
+	width: 300px;
 }
 
 .meta {
 	color: #999;
 	margin: 10px 0;
 	font-size: 12px;
+	padding-right: 10px;
 	text-align: right;
 }
 
