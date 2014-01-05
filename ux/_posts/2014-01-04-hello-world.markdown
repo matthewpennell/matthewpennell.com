@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Hello there, wonderful world!"
-date:   2014-01-04 10:14:14
+title:  "Hello world"
+date:   2014-01-05 19:52:14
 category: ux
 ---
 
-Hello world! This test post is just to see whether GitHub Pages auto-regenerates the Jekyll blog data immediately when I push a new post to the repo. 
+Hello world! This is just a placeholder post for now, to be replaced shortly with some actual links, observations and commentary on UX and design.
+ 
