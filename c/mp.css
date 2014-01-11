@@ -51,6 +51,19 @@ img {
 
 /* @end */
 
+/* @group LINKS AND BASIC STYLES */
+
+a:link, a:visited {
+	color: #09c;
+}
+
+a:hover, a:focus, a:active {
+	color: #09f;
+	text-decoration: none;
+}
+
+/* @end */
+
 /* @group STRUCTURE */
 
 .container {
@@ -110,7 +123,7 @@ h1 a {
 }
 
 .category {
-	color: #fff;
+	color: #fff !important;
 	padding: 10px;
 	margin: 0 10px;
 	text-decoration: none;
@@ -126,7 +139,7 @@ h1 a {
 }
 
 .title {
-	color: #fff;
+	color: #fff !important;
 	display: block;
 	background: rgba(0, 0, 0, 0.8);
 	padding: 10px 20px;
@@ -195,6 +208,10 @@ footer {
 	font-size: 12px;
 	margin: 40px 0;
 	text-align: center;
+}
+
+footer p {
+	margin: 0;
 }
 
 /* @end */
