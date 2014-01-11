@@ -11,9 +11,9 @@ title: matthewpennell.com | UX trouvé
 		<li class="post {{ post.category }}" style="background-image: url(/i/{{ post.image }}); height: {{ post.height }}px;">
 			<div class="links">
 				<a href="/{{ post.category }}/" class="category">
-					{% if post.category == 'ux' %}<acronym>{% endif %}
+					{% if post.category == 'ux' or post.category == 'ixd' %}<acronym>{% endif %}
 					{{ post.category }}
-					{% if post.category == 'ux' %}</acronym>{% endif %}
+					{% if post.category == 'ux' or post.category == 'ixd' %}</acronym>{% endif %}
 				</a>
 				<a href="{{ post.url }}" class="title">{{ post.title }}</a>
 			</div>

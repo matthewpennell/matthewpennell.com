@@ -132,8 +132,9 @@ h1 a {
 }
 
 .design, .design .category { background-color: #134286; }
-.ux, .ux .category     { background-color: #f4184d; }
-.logos, .logos .category     { background-color: #be6e2b; }
+.ux, .ux .category         { background-color: #f4184d; }
+.ixd, .ixd .category       { background-color: #873873; }
+.logos, .logos .category   { background-color: #2BE6E2; }
 
 .category acronym {
 	text-transform: uppercase;
