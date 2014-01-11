@@ -133,6 +133,7 @@ h1 a {
 
 .design, .design .category { background-color: #134286; }
 .ux, .ux .category     { background-color: #f4184d; }
+.logos, .logos .category     { background-color: #be6e2b; }
 
 .category acronym {
 	text-transform: uppercase;
@@ -168,6 +169,11 @@ h1 a {
 .article {
 	margin-left: 320px;
 	padding-top: 40px;
+}
+
+.article p img {
+	display: block;
+	margin: 0 auto 30px;
 }
 
 .article iframe {
@@ -223,9 +229,6 @@ footer p {
 /* @group RESPONSIVENESS */
 
 @media all and (max-width: 900px) {
-	header {
-		padding: 60px;
-	}
 	.container {
 		max-width: 600px;
 	}
@@ -235,9 +238,6 @@ footer p {
 }
 
 @media all and (max-width: 600px) {
-	header {
-		padding: 40px;
-	}
 	.container {
 		max-width: 300px;
 	}
@@ -254,6 +254,9 @@ footer p {
 	nav a {
 		border-radius: 0;
 		border-bottom: 1px solid #ccc;
+	}
+	.article iframe {
+		height: 300px;
 	}
 }
 
