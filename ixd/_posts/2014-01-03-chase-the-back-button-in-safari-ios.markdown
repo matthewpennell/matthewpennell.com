@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    "Playing chase the Back button in Safari on iOS"
-date:     2014-01-01 12:00:00
+date:     2014-01-03 12:00:00
 image:    safari.jpg
 height:   300
 category: ixd
