@@ -170,6 +170,10 @@ h1 a {
 	padding-top: 40px;
 }
 
+.article iframe {
+	max-width: 100%;
+}
+
 /* @end */
 
 /* @group NAVIGATION + FOOTER */

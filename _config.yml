@@ -1,5 +1,7 @@
 name: Your New Jekyll Site
 markdown: redcarpet
+redcarpet:
+  extensions: ['smart']
 pygments: true
 permalink: /:categories/:title/
 lsi: true
