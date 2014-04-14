@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>matthewpennell.com</title>
+
+        <meta name="description" content="">
+
+        <style>
+
+            * {
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+
+            body, h1, h2, p, figure, blockquote {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background: #F4DD4B;
+                color: #f2f2f2;
+                font: 15px/2 "Helvetica Neue", Helvetica, Arial, sans-serif;
+            }
+
+            h2 {
+                font-size: 30px;
+                font-weight: 500;
+                line-height: 30px;
+            }
+
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            .tile {
+                float: left;
+                height: 0;
+                overflow: hidden;
+                padding-bottom: 25%;
+                perspective: 1000;
+                position: relative;
+                width: 25%;
+            }
+
+            .card {
+                height: 100%;
+                position: absolute;
+                -webkit-transform-style: preserve-3d;
+                transform-style: preserve-3d;
+                -webkit-transition: 0.618s;
+                transition: 0.618s;
+                width: 100%;
+            }
+
+            .tile:hover .card {
+                -webkit-transform: rotateY(180deg);
+                transform: rotateY(180deg);
+            }
+
+            .front, .back {
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+                display: block;
+                height: 100%;
+                left: 0;
+                padding: 20px;
+                position: absolute;
+                top: 0;
+                width: 100%;
+            }
+
+            .front {
+                z-index: 2;
+            }
+
+            .back {
+                color: #333 !important;
+                -webkit-transform: rotateY(180deg);
+                transform: rotateY(180deg);
+            }
+
+            .photo {
+                max-width: 100%;
+            }
+
+            figcaption {
+                font-size: 12.5px;
+                line-height: 20px;
+                height: 38.2%;
+                padding: 10px;
+                position: absolute;
+                top: 100%;
+                width: 100%;
+                background: rgba(0,0,0,0.5);
+                transition: margin 0.382s ease;
+            }
+
+            .tile:hover figcaption {
+                margin-top: -38.2%;
+            }
+
+            .logo {
+                background: #F4DD4B;
+            }
+
+            .logo-img {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                margin: -113px 0 0 -97px;
+            }
+
+            .quote {
+                background: #033746;
+                color: #ddd;
+                text-align: center;
+                font-size: 30px;
+                font-weight: 100;
+                line-height: 30px;
+                font-style: italic;
+            }
+
+            blockquote {
+                margin: 50px 20px 0;
+            }
+
+            cite {
+                font-size: 10px;
+                font-style: normal;
+                font-weight: bold;
+                margin: 0 20px 20px;
+            }
+
+            .the-watchmaker-project .front {
+                background: #4DD4BB;
+            }
+
+            .this-reviewers-life .front {
+                background: #4BB2EC;
+            }
+
+            .ten-minutes-of-prose .front {
+                background: #C03374;
+            }
+
+            .github .front {
+                background: #6F4DD4;
+            }
+
+            .multiple-line {
+                word-spacing: 300px;
+            }
+
+            .external {
+                background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAABiUlEQVRIS9WW3VXDMAyF62QB2CQkA1A2YISyQTtBYYLCBHQDRigLJHiEbkAWSNJ7ezDHOHZkp30hL/2JpM+WdGWrReRTFMUyz/NDpLlrplWKY1mW70qpVYqPsU0C0WkuLBk0FzYCoRY3CFYE0nPUWh/5rqqqD3w8xqbxDGLwLMu2+LpCDQgaPcMwtH3fPwCkYV/A/hCy9fkrQn66KbSLxaUQghWKu8PK1qEUXANiQN9WCnTXdRtk59MFz0mXHUOhqIP5AxDW4OqQ845sUF3Xvi5MLry3GSTQTIEyK8tg6nw7wkI43/44TWkHzfPUNM3eXaCYOjg8o1moMfExEGNow0RQjM4Y2EBoj4ZqXZgIooMEsyEUP0pwZ2+fR0wUaArmQrguX62jQQaGGbdGze7xu4Xu3ozu0DRfhNDuYtBUN0gySdrR/wOFZp0kIPfi4q0RRDWa3lJg9z1aemcagccKJsOtayOeR6lQgF4B2oxAkhgTQTzPeNT8TgbjH31nEAYpA+9xp3jxQeh7Ahb8BLKJPqqbAAAAAElFTkSuQmCC');
+                position: absolute;
+                bottom: 20px;
+                right: 20px;
+                width: 26px;
+                height: 26px;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="tile logo">
+            <h1><img class="logo-img" src="logo.png" alt="matthewpennell.com"></h1>
+        </div>
+
+        <div class="tile the-watchmaker-project">
+            <div class="card">
+                <div class="front">
+                    <h2 class="multiple-line">The Watchmaker Project</h2>
+                    <p class="keywords">Blog, Personal, Writing</p>
+                </div>
+                <a href="http://thewatchmakerproject.com/" class="back">
+                    The Watchmaker Project started as a personal playground back in 2004&mdash;somewhere to share what I thought about work and life.
+                    Since then it has been redesigned half-a-dozen times and moved platforms almost as often.
+                </a>
+            </div>
+            <i class="external"></i>
+        </div>
+
+        <figure class="tile">
+            <img src="books.jpg" class="photo" alt="">
+            <figcaption>A stack of books at Ripley's Believe It Or Not museum in Orlando, Florida. &copy; 2013</figcaption>
+        </figure>
+
+        <div class="tile this-reviewers-life">
+            <div class="card">
+                <div class="front">
+                    <h2 class="multiple-line">This Reviewer&#8217;s Life</h2>
+                    <p class="keywords">Reviews, Film, Books, Writing</p>
+                </div>
+                <a href="http://thisreviewerslife.tumblr.com/" class="back">
+                    Occasional reviews, mostly of books but with the occasional film, album or other product thrown in.
+                </a>
+            </div>
+            <i class="external"></i>
+        </div>
+
+        <div class="tile ten-minutes-of-prose">
+            <div class="card">
+                <div class="front">
+                    <h2>Ten Minutes<br>Of Prose</h2>
+                    <p class="keywords">Writing, Exercise, Daily</p>
+                </div>
+                <a href="http://tenminutesofprose.tumblr.com/" class="back">
+                    An (allegedly) daily writing exercise; five minutes of free writing, followed by five minutes of editing. Quality may be variable.
+                </a>
+            </div>
+            <i class="external"></i>
+        </div>
+
+        <div class="tile quote">
+            <blockquote>
+                &#8220;Boy, I got vision, and the rest of the world wears bifocals.&#8221;
+            </blockquote>
+            <cite>Butch Cassidy and the Sundance Kid (1969)</cite>
+        </div>
+
+        <div class="tile github">
+            <div class="card">
+                <div class="front">
+                    <h2>GitHub</h2>
+                    <p class="keywords">Code, Personal</p>
+                </div>
+                <a href="http://github.com/matthewpennell" class="back">
+                    Various personal coding projects.
+                </a>
+            </div>
+            <i class="external"></i>
+        </div>
+
+        <figure class="tile">
+            <img src="chimp.jpg" class="photo" alt="">
+            <figcaption>Graffiti found beneath a bridge, Oude Haaagseweg, Amsterdam &copy; 2012</figcaption>
+        </figure>
+
+    </body>
+
+</html>
