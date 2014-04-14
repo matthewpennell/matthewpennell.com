@@ -8,6 +8,7 @@
         <title>matthewpennell.com</title>
 
         <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, minimumscale=1.0, maximum-scale=1.0">
 
         <style>
 
@@ -88,6 +89,7 @@
 
             .photo {
                 max-width: 100%;
+                width: 100%;
             }
 
             figcaption {
@@ -158,6 +160,10 @@
                 word-spacing: 300px;
             }
 
+            .break {
+                display: block;
+            }
+
             .external {
                 background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAABiUlEQVRIS9WW3VXDMAyF62QB2CQkA1A2YISyQTtBYYLCBHQDRigLJHiEbkAWSNJ7ezDHOHZkp30hL/2JpM+WdGWrReRTFMUyz/NDpLlrplWKY1mW70qpVYqPsU0C0WkuLBk0FzYCoRY3CFYE0nPUWh/5rqqqD3w8xqbxDGLwLMu2+LpCDQgaPcMwtH3fPwCkYV/A/hCy9fkrQn66KbSLxaUQghWKu8PK1qEUXANiQN9WCnTXdRtk59MFz0mXHUOhqIP5AxDW4OqQ845sUF3Xvi5MLry3GSTQTIEyK8tg6nw7wkI43/44TWkHzfPUNM3eXaCYOjg8o1moMfExEGNow0RQjM4Y2EBoj4ZqXZgIooMEsyEUP0pwZ2+fR0wUaArmQrguX62jQQaGGbdGze7xu4Xu3ozu0DRfhNDuYtBUN0gySdrR/wOFZp0kIPfi4q0RRDWa3lJg9z1aemcagccKJsOtayOeR6lQgF4B2oxAkhgTQTzPeNT8TgbjH31nEAYpA+9xp3jxQeh7Ahb8BLKJPqqbAAAAAElFTkSuQmCC');
                 position: absolute;
@@ -165,6 +171,43 @@
                 right: 20px;
                 width: 26px;
                 height: 26px;
+            }
+
+            @media only screen and (max-width: 900px) {
+                .tile {
+                    width: 33.333%;
+                    padding-bottom: 33.333%;
+                }
+            }
+
+            @media only screen and (max-width: 700px) {
+                .tile {
+                    width: 50%;
+                    padding-bottom: 50%;
+                }
+            }
+
+            @media only screen and (max-width: 500px) {
+                .tile {
+                    width: 100%;
+                    padding-bottom: 100px;
+                }
+                .logo {
+                    padding-bottom: 100%;
+                }
+                .break {
+                    display: inline;
+                }
+                .multiple-line {
+                    word-spacing: 0;
+                }
+                .quote {
+                    height: auto;
+                    padding-bottom: 20px;
+                }
+                blockquote {
+                    margin-top: 20px;
+                }
             }
 
         </style>
@@ -212,7 +255,7 @@
         <div class="tile ten-minutes-of-prose">
             <div class="card">
                 <div class="front">
-                    <h2>Ten Minutes<br>Of Prose</h2>
+                    <h2><span class="break">Ten Minutes</span> Of Prose</h2>
                     <p class="keywords">Writing, Exercise, Daily</p>
                 </div>
                 <a href="http://tenminutesofprose.tumblr.com/" class="back">
