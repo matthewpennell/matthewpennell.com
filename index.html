@@ -149,19 +149,22 @@
             }
 
             figcaption {
-                font-size: 12.5px;
-                line-height: 20px;
-                height: 38.2%;
+                background: rgba(0,0,0,0.5);
+                bottom: 20px;
+                left: 20px;
                 padding: 10px;
                 position: absolute;
-                top: 100%;
-                width: 100%;
-                background: rgba(0,0,0,0.5);
-                transition: margin 0.382s ease;
+                right: 20px;
+                -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                filter: alpha(opacity=0);
+                opacity: 0;
+                transition: opacity 2s linear;
             }
 
             .tile:hover figcaption {
-                margin-top: -38.2%;
+                -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                 filter: alpha(opacity=100);
+                 opacity: 1;
             }
 
             .keywords, .link {
@@ -479,6 +482,8 @@
             }
 
         </script>
+
+        <!-- Still to add: Goodreads, Contact details, LinkedIn, Medium, Refresh Cambridge -->
 
     </body>
 
