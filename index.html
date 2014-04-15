@@ -50,27 +50,16 @@
                 width: 25%;
             }
 
-            .card {
-                height: 100%;
-                position: absolute;
-                -webkit-transform-style: preserve-3d;
-                transform-style: preserve-3d;
-                -webkit-transition: 0.618s ease;
-                transition: 0.618s ease;
-                width: 100%;
-            }
-
-            .tile:hover .card {
-            }
-
-            .front, .back {
-                display: block;
-                height: 100%;
-                left: 0;
-                padding: 20px;
+            .inner {
                 position: absolute;
                 top: 0;
+                left: 0;
+                height: 100%;
                 width: 100%;
+                padding: 20px;
+            }
+
+            .keywords {
                 -webkit-transform: scaleY(1);
                 -moz-transform: scaleY(1);
                 -o-transform: scaleY(1);
@@ -83,11 +72,7 @@
                 transition: all 0.62s ease-in-out;
             }
 
-            .front {
-                z-index: 2;
-            }
-
-            .tile:hover .front {
+            .tile:hover .keywords {
                 -webkit-transform: scale(10);
                 -moz-transform: scale(10);
                 -o-transform: scale(10);
@@ -98,7 +83,7 @@
                 opacity: 0;
             }
 
-            .back {
+            .description {
                 -webkit-transition: all 0.38s linear;
                 -moz-transition: all 0.38s linear;
                 -o-transition: all 0.38s linear;
@@ -112,20 +97,24 @@
                 -o-transform: scale(0);
                 -ms-transform: scale(0);
                 transform: scale(0);
+                margin-top: -30px;
             }
 
-           .tile:hover .back {
+            .tile:hover .description {
                 -webkit-transform: scale(1);
                 -moz-transform: scale(1);
                 -o-transform: scale(1);
                 -ms-transform: scale(1);
                 transform: scale(1);
-               -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
                 filter: alpha(opacity=100);
                 opacity: 1;
-           }
+            }
 
             .photo {
+                position: absolute;
+                top: 0;
+                left: 0;
                 -webkit-transition: all 10s linear;
                 -moz-transition: all 10s linear;
                 -o-transition: all 10s linear;
@@ -250,7 +239,7 @@
                 height: 26px;
             }
 
-            @media only screen and (max-width: 900px) {
+            @media only screen and (max-width: 1100px) {
                 .tile {
                     width: 33.333%;
                     padding-bottom: 33.333%;
@@ -298,47 +287,38 @@
         </div>
 
         <a href="http://thewatchmakerproject.com/" class="tile the-watchmaker-project">
-            <div class="front">
+            <div class="inner">
                 <h2 class="multiple-line">The Watchmaker Project</h2>
                 <p class="keywords">Blog, Personal, Writing</p>
+                <p class="description">My blog and personal playground since 2004; somewhere to share what I think about work and life.</p>
+                <p class="link">Visit site</p>
+                <i class="external"></i>
             </div>
-            <div class="back">
-                My blog and personal playground since 2004; somewhere to share what I think about work and life.
-                <br>
-                <span class="link">Visit site</span>
-            </div>
-            <i class="external"></i>
         </a>
 
         <figure class="tile">
             <img src="books.jpg" class="photo" alt="">
-            <figcaption>A stack of books at Ripley's Believe It Or Not museum in Orlando, Florida. &copy; 2013</figcaption>
+            <figcaption>A stack of books at Ripley's Believe It Or Not museum in Orlando, Florida. &copy;&nbsp;2013</figcaption>
         </figure>
 
         <a href="http://thisreviewerslife.tumblr.com/" class="tile this-reviewers-life">
-            <div class="front">
+            <div class="inner">
                 <h2 class="multiple-line">This Reviewer&#8217;s Life</h2>
-                <p class="keywords">Reviews, Film, Books, Writing</p>
+                <p class="keywords">Reviews, Writing</p>
+                <p class="description">Occasional reviews, mostly of books but with the occasional film, album or other product thrown in.</p>
+                <p class="link">Visit site</p>
+                <i class="external"></i>
             </div>
-            <div class="back">
-                Occasional reviews, mostly of books but with the occasional film, album or other product thrown in.
-                <br>
-                <span class="link">Visit site</span>
-            </div>
-            <i class="external"></i>
         </a>
 
         <a href="http://tenminutesofprose.tumblr.com/" class="tile ten-minutes-of-prose">
-            <div class="front">
+            <div class="inner">
                 <h2><span class="break">Ten Minutes</span> Of Prose</h2>
                 <p class="keywords">Writing, Exercise, Daily</p>
+                <p class="description">An (allegedly) daily writing exercise; five minutes of free writing, followed by five minutes of editing. Quality may be variable.</p>
+                <p class="link">Visit site</p>
+                <i class="external"></i>
             </div>
-            <div class="back">
-                An (allegedly) daily writing exercise; five minutes of free writing, followed by five minutes of editing. Quality may be variable.
-                <br>
-                <span class="link">Visit site</span>
-            </div>
-            <i class="external"></i>
         </a>
 
         <div class="tile quote">
@@ -349,39 +329,33 @@
         </div>
 
         <a href="http://github.com/matthewpennell" class="tile github">
-            <div class="front">
+            <div class="inner">
                 <h2>GitHub</h2>
                 <p class="keywords">Code, Personal</p>
+                <p class="description">Personal coding projects and extensions, mostly JavaScript or PHP.</p>
+                <p class="link">Visit site</p>
+                <i class="external"></i>
             </div>
-            <div class="back">
-                Personal coding projects and extensions, mostly JavaScript or PHP.
-                <br>
-                <span class="link">Visit site</span>
-            </div>
-            <i class="external"></i>
         </a>
 
         <figure class="tile">
             <img src="chimp.jpg" class="photo" alt="">
-            <figcaption>Graffiti found beneath a bridge, Oude Haaagseweg, Amsterdam &copy; 2012</figcaption>
+            <figcaption>Graffiti found beneath a bridge, Oude Haaagseweg, Amsterdam &copy;&nbsp;2012</figcaption>
         </figure>
 
         <figure class="tile">
             <img src="isay.jpg" class="photo" alt="">
-            <figcaption>Graffiti on the playground wall at Orteliuspad, Amsterdam &copy; 2012</figcaption>
+            <figcaption>Graffiti on the playground wall at Orteliuspad, Amsterdam &copy;&nbsp;2012</figcaption>
         </figure>
 
         <a href="http://twitter.com/matthewpennell" class="tile twitter">
-            <div class="front">
+            <div class="inner">
                 <h2>Twitter</h2>
                 <p class="keywords">Personal</p>
+                <p class="description">Idiocy and wisdom at 140 characters an hour.</p>
+                <p class="link">Visit site</p>
+                <i class="external"></i>
             </div>
-            <div class="back">
-                Idiocy and wisdom at 140 characters an hour.
-                <br>
-                <span class="link">Visit site</span>
-            </div>
-            <i class="external"></i>
         </a>
 
         <div class="tile quote">
@@ -392,69 +366,54 @@
         </div>
 
         <a href="http://last.fm/user/Watchmaker" class="tile lastfm">
-            <div class="front">
+            <div class="inner">
                 <h2>Last.fm</h2>
                 <p class="keywords">Music</p>
+                <p class="description">Find out what I'm listening to right now.</p>
+                <p class="link">Visit site</p>
+                <i class="external"></i>
             </div>
-            <div class="back">
-                Find out what I'm listening to right now.
-                <br>
-                <span class="link">Visit site</span>
-            </div>
-            <i class="external"></i>
         </a>
 
         <a href="http://thewatchmakerproject.tumblr.com/" class="tile tumblr">
-            <div class="front">
+            <div class="inner">
                 <h2>Tumblr</h2>
                 <p class="keywords">Links, Quotes, Photos</p>
+                <p class="description">Just your basic tumblelog, containing bits and pieces that weren't thrilling enough to make it onto Twitter or Facebook.</p>
+                <p class="link">Visit site</p>
+                <i class="external"></i>
             </div>
-            <div class="back">
-                Just your basic tumblelog, containing bits and pieces that weren't thrilling enough to make it onto Twitter or Facebook.
-                <br>
-                <span class="link">Visit site</span>
-            </div>
-            <i class="external"></i>
         </a>
 
         <a href="http://instagram.com/matthewpennell" class="tile instagram">
             <img src="instagram.jpg" class="photo" alt="">
-            <div class="front">
+            <div class="inner">
                 <h2>Instagram</h2>
                 <p class="keywords">Photography</p>
+                <p class="description">Phone-based photography with as much shitty filtering and faux-blur as I can manage.</p>
+                <p class="link">Visit site</p>
+                <i class="external"></i>
             </div>
-            <div class="back">
-                Phone-based photography with as much shitty filtering and faux-blur as I can manage.
-                <br>
-                <span class="link">Visit site</span>
-            </div>
-            <i class="external"></i>
         </a>
 
         <a href="http://dribbble.com/matthewpennell" class="tile dribbble">
-            <div class="front">
+            <div class="inner">
                 <h2>Dribbble</h2>
                 <p class="keywords">Design, Work</p>
+                <p class="description">The latest design-related work that I'm willing to share publicly. Don't get your hopes up too high.</p>
+                <p class="link">Visit site</p>
+                <i class="external"></i>
             </div>
-            <div class="back">
-                The latest design-related work that I'm willing to share publicly. Don't get your hopes up too high.
-                <br>
-                <span class="link">Visit site</span>
-            </div>
-            <i class="external"></i>
         </a>
 
         <a href="http://www.amazon.co.uk/registry/wishlist/2FL1U4TCT0LI5/" class="tile amazon">
-            <div class="front">
+            <div class="inner">
                 <h2>My Amazon Wishlist</h2>
                 <p class="keywords">Birthday, Christmas</p>
+                <p class="description">All the shiny things I want (that are available on everyone's favourite tax-dodging cardboard box supplier).</p>
+                <p class="link">Visit site</p>
+                <i class="external"></i>
             </div>
-            <div class="back">
-                All the shiny things I want (that are available on everyone's favourite tax-dodging cardboard box supplier).
-                <br>
-                <span class="link">Visit site</span>
-            </div>
-            <i class="external"></i>
         </a>
 
         <script>
