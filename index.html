@@ -451,8 +451,11 @@
 
             var links = document.getElementsByTagName('a');
             for (var i in links) {
-                links[i].addEventListener('click', function () {
+                links[i].addEventListener('click', function (e) {
                     ga('send', 'event', 'Link', 'click', this.className.replace('tile ', ''));
+                    window.open(this.href);
+                    e.preventDefault();
+                    return false;
                 });
             }
 
