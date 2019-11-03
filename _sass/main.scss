@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #f6f6f6;
+    color: #121212;
+    font: 18px/30px "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.content {
+    margin: 0 366px;
+}
+
+.content:after {
+    background: #fff;
+    bottom: 0;
+    content: "";
+    position: fixed;
+    right: 0;
+    height: 0;
+    width: 0;
+    border-right: 346px solid #fff;
+    border-top: #f6f6f6 solid 475px;
+}
+
+.content h2, .site-name {
+    font: 18px/30px "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.site-name {
+    margin-top: 314px;
+}
+
+.eye {
+    width: 80px;
+    height: 80px;
+    margin: 50px 14px -50px -100px;
+}
+
+.site-strap {
+    border-left: 102px solid #F4DD4B;
+    font: italic 14px/10px "Times New Roman", serif;
+    padding-left: 10px;
+    margin-bottom: 288px;
+}
+
+.links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 102px;
+    background: #fff;
+}
