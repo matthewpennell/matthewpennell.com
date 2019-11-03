@@ -18,15 +18,13 @@ body {
 }
 
 .content:after {
-    background: #fff;
+    background: url(/i/bottom-right.png) no-repeat 100% 100%;
     bottom: 0;
     content: "";
     position: fixed;
     right: 0;
-    height: 0;
-    width: 0;
-    border-right: 346px solid #fff;
-    border-top: #f6f6f6 solid 475px;
+    height: 475px;
+    width: 345px;
 }
 
 .content h2, .site-name {
@@ -57,5 +55,18 @@ body {
     top: 0;
     left: 0;
     width: 102px;
-    background: #fff;
+    background: url(/i/top-left.png) no-repeat 0 0;
+    height: 452px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+    width: 102px;
+    text-align: center;
+}
+
+.links li {
+    margin-bottom: 30px;
+    font-size: 14px;
 }
