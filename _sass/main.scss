@@ -7,10 +7,29 @@ html {
 }
 
 body {
-    background: #f6f6f6;
-    color: #121212;
+    background: #eee;
+    color: #111;
     font: 18px/30px "Open Sans", Helvetica, Arial, sans-serif;
     font-weight: 300;
+    padding-top: 316px;
+}
+
+p, ol, ul, dl {
+    padding: 0;
+    margin: 0 0 10px;
+}
+
+article {
+    margin-bottom: 142px;
+    position: relative;
+}
+
+a, a:link, a:active {
+    color: #C03374;
+}
+
+a:visited, a:hover {
+    color: #6F4DD4;
 }
 
 .content {
@@ -34,7 +53,19 @@ body {
 }
 
 .site-name {
-    margin-top: 314px;
+    margin-bottom: 306px;
+}
+
+.permalink {
+    position: relative;
+    left: -31px;
+    margin-bottom: -30px;
+    text-decoration: none;
+    display: none;
+}
+
+article:hover .permalink {
+    display: block;
 }
 
 .eye {
@@ -47,7 +78,7 @@ body {
     border-left: 102px solid #F4DD4B;
     font: italic 14px/10px "Times New Roman", serif;
     padding-left: 10px;
-    margin-bottom: 288px;
+    margin-top: 10px;
 }
 
 .links {
@@ -61,12 +92,72 @@ body {
 
 .links ul {
     list-style: none;
-    padding: 0;
     width: 102px;
-    text-align: center;
+    padding-top: 30px;
 }
 
-.links li {
+.links a {
     margin-bottom: 30px;
-    font-size: 14px;
+    display: block;
+    background: url(/i/icons.png) no-repeat;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    padding-left: 32px;
+    margin-left: 35px;
+    white-space: nowrap;
+    filter: grayscale(100%);
+}
+
+.links:hover a {
+    filter: grayscale(0%);
+    transition: filter linear 1s;
+}
+
+.twitter a         { background-position: 0 0; }
+.medium a          { background-position: -128px 0; }
+.github a          { background-position: -64px 0; }
+.last-fm a         { background-position: -96px 0; }
+.instagram a       { background-position: -32px 0; }
+.amazon-wishlist a { background-position: -160px 0; }
+
+footer {
+    font-size: 11px;
+    color: #999;
+}
+
+@media only screen and (max-width: 1200px) {
+    .content {
+        margin-right: 30px;
+    }
+    .content:after {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding-top: 0;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .site-name {
+        margin-bottom: 60px;
+    }
+    .site-strap {
+        border-left: 0;
+        border-bottom: 10px solid #F4DD4B;
+        padding: 0 0 10px;
+    }
+    .eye {
+        display: block;
+        margin: 0 auto 20px;
+    }
+    .content {
+        margin: 30px;
+    }
+    .links {
+        display: none;
+    }
+
 }

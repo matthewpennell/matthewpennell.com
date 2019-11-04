@@ -1,8 +1,8 @@
 <nav class="links">
     <ul>
         {% for link in site.data.links %}
-            <li>
-                <a href="{{ link.url }}">{{ link.name }}</a>
+            <li class="{{ link.name | slugify }}">
+                <a href="{{ link.url }}" title="{{ link.name }}">{{ link.name }}</a>
             </li>
         {% endfor %}
     </ul>
