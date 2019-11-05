@@ -59,5 +59,3 @@ defaults:
       path: ""
     values:
       layout: "default"
-
-theme: jekyll-theme-minimal
