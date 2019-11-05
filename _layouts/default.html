@@ -16,19 +16,17 @@
     <body>
 
         <div class="content">
-            <h1 class="site-name">
+            <a href="{{ site.url }}" class="site-name">
                 <img class="eye" src="/i/eye.png" alt="" />
                 {{ site.title }}
                 <div class="site-strap">A blog of acquiescent temper, miscellaneous opinions, and uncertain vote</div>
-            </h1>
+            </a>
             {{ content }}
         </div>
 
         {% include links.html %}
 
-        <footer>
-            Icons by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> and <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-        </footer>
+        {% include footer.html %}
 
     </body>
 

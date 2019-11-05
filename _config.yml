@@ -20,8 +20,7 @@
 
 title: matthewpennell.com
 description: Being the Collected Ephemera, Belonging to one Matthew Pennell, heretofore Scattered About on The Internet, now Gathered in One Place for your Amusement. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://matthewpennell.com"
 permalink: /:year-:month-:day
 
 # Build settings
@@ -51,6 +50,11 @@ plugins:
 #   - vendor/ruby/
 
 defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
   - scope:
       path: ""
     values:

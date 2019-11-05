@@ -14,7 +14,7 @@ body {
     padding-top: 316px;
 }
 
-p, ol, ul, dl {
+p, ol, ul, dl, pre, blockquote {
     padding: 0;
     margin: 0 0 10px;
 }
@@ -22,6 +22,29 @@ p, ol, ul, dl {
 article {
     margin-bottom: 142px;
     position: relative;
+}
+
+pre {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 100%;
+    overflow: auto;
+    padding: 20px;
+    background: #fff;
+    max-height: 346px;
+}
+
+blockquote {
+    padding-left: 20px;
+    border-left: 10px solid #33746F;
+    margin: 40px 0;
+}
+
+.content p img {
+    width: 100%;
+    border: 10px solid #fff;
+    display: block;
+    margin: 20px 0;
 }
 
 a, a:link, a:active {
@@ -52,8 +75,11 @@ a:visited, a:hover {
     margin: 0 0 10px;
 }
 
-.site-name {
+a.site-name {
     margin-bottom: 306px;
+    display: block;
+    color: #111;
+    text-decoration: none;
 }
 
 .permalink {
