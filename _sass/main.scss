@@ -161,13 +161,22 @@ footer {
     }
 }
 
+@media only screen and (max-height: 850px) {
+    body {
+        padding-top: 194px;
+    }
+    a.site-name {
+        margin-bottom: 204px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     body {
         padding-top: 0;
         font-size: 14px;
         line-height: 20px;
     }
-    .site-name {
+    a.site-name {
         margin-bottom: 60px;
     }
     .site-strap {
