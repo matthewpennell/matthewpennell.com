@@ -11,4 +11,4 @@ The Germans were apparently so mad for the series that it seeped into their popu
 
 Nowadays, of course, you can watch the whole film on YouTube for free:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ggvDS3Prips" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g0Q4njQOlmw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
