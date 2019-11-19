@@ -1,0 +1,8 @@
+---
+title: Tuesday, 19 November 2019
+---
+Since Phase 2 of _World of Warcraft Classic_ launched last week, bringing with it the PvP honour system, levelling has become rather more challenging. My priest is level 51, which puts me square in the sights of every level 60 player looking for some easy points while we wait for the actual PvP battlegrounds to be released; in the space of a few days, the game went from generally fun to at times boringly frustrating.
+
+So, to avoid the non-stop roaming gank squads, I've picked up a new game to play for a couple of weeks. _Batman: Arkham Knight_ is the fourth and final game in the series released by Rocksteady, and brings back just about all of the heroes and villains that featured in the previous installments (_Arkham Asylum_, _Arkham City_ and _Arkham Origins_) while changing little of the gameplay fundamentals that garnered all the games generally positive reviews. Even better, it was free; one of the better [Epic Store](https://epicgames.com/) giveaways &mdash; they actually gave away all the Arkhamverse games, plus all of the LEGO Batman games, in a single week!
+
+I was a little unsure whether my iMac Windows partition would be able to handle running such a graphically intensive game, particularly when the hand-to-hand combat can sometimes require decent reflexes, but it actually runs fairly smoothly, albeit at a slimmed down 1600&times;900 resolution instead of the native 2560&times;1440. Again, 2015 seems to be the most recent vintage of game that I am able to comfortably play, but with such a wealth of options being given away for free, I can hardly complain.
