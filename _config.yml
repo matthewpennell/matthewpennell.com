@@ -22,9 +22,12 @@ title: matthewpennell.com
 description: Being the Collected Ephemera, Belonging to one Matthew Pennell, heretofore Scattered About on The Internet, now Gathered in One Place for your Amusement. 
 url: "https://matthewpennell.com"
 permalink: /:year-:month-:day
+paginate: 10
+paginate_path: "/page:num/"
 
 # Build settings
 plugins:
+  - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag

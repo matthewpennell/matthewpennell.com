@@ -1,0 +1,26 @@
+---
+title: Home 
+---
+
+{% for post in paginator.posts %}
+  <article>
+    <a class="permalink" href="/{{ post.date | date: "%Y-%m-%d" }}">#</a>
+    <h2>{{ post.date | date: "%A, %-d %B %Y" }}</h2>
+    {{ post.content }}
+  </article>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    Page: 
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <strong>{{ page }}</strong>
+      {% elsif page == 1 %}
+        <a href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
