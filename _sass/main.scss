@@ -75,19 +75,10 @@ a:visited, a:hover {
     width: 345px;
 }
 
-.content h2, .site-name {
+.content h2, .content h3, .site-name {
     font: 18px/30px "Open Sans", Helvetica, Arial, sans-serif;
     font-weight: 600;
     margin: 0 0 10px;
-}
-
-.content h2 {
-    font-size: 24px;   
-}
-
-.content h3 {
-    font-size: 21px;
-    line-height: 30px;
 }
 
 a.site-name {
