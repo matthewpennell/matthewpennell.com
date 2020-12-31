@@ -5,9 +5,9 @@ So, 2020, the longest year in history, is finally almost over, and it is once ag
 
 ## Reading
 
-One might have assumed that a year of enforced solitude would increase the amount of time spent reading, but since a large portion of the downtime in my pre-pandemic life was spent in airports and hotels, I actually read a lot less than usual. If this home-based, travel-free existence is going to carry on into 2021, I should make more of an effort to read at other times of the day than the half-hour before bed.
+One might have assumed that a year of enforced solitude would increase the amount of time spent reading, but since a large portion of my pre-pandemic downtime was spent in airports and hotels, I actually read a lot less than usual. If this home-based, travel-free existence is going to carry on into 2021, I should really make more of an effort to read at other times of the day than the half-hour before bed.
 
-Anyway, here's this year's list, broken down as always into fiction, non-fiction, and comic books.
+Anyway, here's this year's list, broken down as always into fiction, non-fiction, and comic books:
 
 ### Fiction
 
@@ -40,7 +40,7 @@ Anyway, here's this year's list, broken down as always into fiction, non-fiction
 * Dragons of Autumn Twilight (Margaret Weis & Tracy Hickman)
 * Beasts in Velvet (Jack Yeovil)
 
-I think that the presence of so many old favourites, including many from my childhood, speaks to a greater-than-usual need for escapism in 2020. In between tales of time-travel and larking about on the river, though, I also managed to fit in some sci-fi and fantasy classics (the first Wheel of Time book disappointingly ripped off large chunks of _Lord of the Rings_, and I had to abandon _Lord Foul's Bane_ it was that bad) as well as some modern and not-so-modern literary fiction. Becky Chambers is reliably warm; Umberto Eco was boring; Lee Child was surprisingly readable for something I had dismissed as a mere airport thriller.
+I think that the presence of so many old favourites, including many from my childhood, speaks to a greater-than-usual need for escapism in 2020. In between tales of time-travel and larking about on the river, though, I also managed to fit in some sci-fi and fantasy classics (the first Wheel of Time book disappointingly ripped off large chunks of _Lord of the Rings_, and I had to abandon _Lord Foul's Bane_ it was that bad) as well as some modern and not-so-modern literary fiction. Becky Chambers is reliably warm and comforting; Umberto Eco was boring; Lee Child was surprisingly readable for something I had dismissed as a mere airport thriller.
 
 I think my favourite book of the year would have to be Chimamanda Ngozi Adichie's _Half of a Yellow Sun_, a love story set during the Nigerian Civil War of the late '60s. I loved her novel _Americanah_ when I read it a few years ago; this one was just as beautifully written and compelling.
 
@@ -137,14 +137,16 @@ Apart from _Chess_ (which only takes a couple of listens to make this list, with
 * Downsizing
 * Jojo Rabbit
 
-These are just the films that were new to me in 2020. Besides the ones in this list, my wife and I also started rewatching every James Bond film in order (and discovered they're almost universally terrible in the 60s and 70s), and also held ourselves a brief Billy Wilder season back in March.
+These are just the films that were new to me in 2020. Besides the ones in this list, my wife and I also started rewatching every James Bond film in order (and discovered they're almost universally terrible in the 60s and 70s), and also held ourselves a brief Billy Wilder season back in March when we watched _Some Like It Hot_, _The Apartment_, _Double Indemnity_ and _Sunset Boulevard_ back-to-back.
 
-Of these new ones, though, some were terrible (Cats, Rambo Last Blood, 2036 Origin Unknown), some were just disappointing (Guava Island, I'm Thinking of Ending Things, Annihilation), and quite a few were great (Knives Out, Da 5 Bloods, A Quiet Place, Into the Spider-Verse, Dolemite Is My Name, Marriage Story, Booksmart, Chef, Jojo Rabbit). I've certainly watched fewer films this year than in previous years due to spending almost no time in hotels; however I have instead ended up watching more films with my wife and kids, which has been nice.
+Of these new ones, though, some were terrible (_Cats_, _Rambo: Last Blood_, _2036 Origin Unknown_), some were just disappointing (_Guava Island_, _I'm Thinking of Ending Things_, _Annihilation_), but quite a few were great (_Knives Out_, _Da 5 Bloods_, _A Quiet Place_, _Into the Spider-Verse_, _Dolemite Is My Name_, _Marriage Story_, _Booksmart_, _Chef_, _Jojo Rabbit_). I've certainly watched fewer films this year than in previous years due to spending almost no time in hotels; however I have instead ended up watching more films with my wife and kids, which has been nice.
 
 ## 2020 picks
 
 **Favourite book:** _Half of a Yellow Sun_ by Chimamanda Ngozi Adichie
+
 **Favourite album:** _color theory_ by Soccer Mommy
+
 **Favourite film:** Spider-Man: Into the Spider-Verse (2018)
 
 If you're at all interested in following along next year, you can find me on [GoodReads](https://www.goodreads.com/user/show/13428913-matthew-pennell), [Last.fm](https://www.last.fm/user/Watchmaker), and [Letterboxd](https://letterboxd.com/matthewpennell/).
