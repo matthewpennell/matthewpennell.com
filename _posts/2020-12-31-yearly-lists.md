@@ -1,5 +1,5 @@
 ---
-title: Tuesday, 31 December 2019
+title: Thursday, 31 December 2020
 ---
 So, 2020, the longest year in history, is finally almost over, and it is once again time to put together my annual traditional blog post - now in its 14th year! - and look back over the books I read, the music I listened to, and the films I watched during the last twelve months.
 
