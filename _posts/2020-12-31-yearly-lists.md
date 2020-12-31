@@ -146,3 +146,5 @@ Of these new ones, though, some were terrible (Cats, Rambo Last Blood, 2036 Orig
 **Favourite book:** _Half of a Yellow Sun_ by Chimamanda Ngozi Adichie
 **Favourite album:** _color theory_ by Soccer Mommy
 **Favourite film:** Spider-Man: Into the Spider-Verse (2018)
+
+If you're at all interested in following along next year, you can find me on [GoodReads](https://www.goodreads.com/user/show/13428913-matthew-pennell), [Last.fm](https://www.last.fm/user/Watchmaker), and [Letterboxd](https://letterboxd.com/matthewpennell/).
