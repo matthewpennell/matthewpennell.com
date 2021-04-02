@@ -15,3 +15,7 @@ jekyll serve
 ```
 
 The site will be available at http://127.0.0.1:4000.
+
+## Updating dependencies
+
+To update Jekyll's dependencies (for example due to a GitHub security advisory), simply run `bundle update` from within the site folder.
