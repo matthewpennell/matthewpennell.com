@@ -32,7 +32,7 @@ I've always split these lists into fiction, non-fiction, and comic books:
 * The Three-Body Problem (Cixin Liu)
 * Pigeon Post (Arthur Ransome)
 
-A pretty unimpressive list, all told - a lot of pulp and re-reads with only a couple of truly memorable books. _All the Light We Cannot See_ was excellent (as you'd expect of a Pulitzer winner), but Maugham's _Of Human Bondage_ was far and away the best thing I read this year and I'd recommend it to everyone. I also re-read _The Lord of the Rings_ for the first time in ages - I'd forgotten how good it was - while at the other end of the spectrum I was disappointed by how uninteresting _The Three-Body Problem_ turned out to be, after seeing it mentioned in so many people's lists of their favourite novels.
+A pretty unimpressive list, all told - a lot of pulp and re-reads with only a couple of truly memorable books. _All the Light We Cannot See_ was excellent (as you'd expect of a Pulitzer winner), but Maugham's _Of Human Bondage_ was far and away the best thing I read this year and I'd recommend it to anyone. I also re-read _The Lord of the Rings_ for the first time in ages - I'd forgotten how good it was - while at the other end of the spectrum I was disappointed by how uninteresting _The Three-Body Problem_ turned out to be, after seeing it mentioned in so many people's lists of their favourite science fiction novels.
 
 ### Non-fiction
 
@@ -44,7 +44,7 @@ A pretty unimpressive list, all told - a lot of pulp and re-reads with only a co
 * Stop-Time (Frank Conroy)
 * Tarantino: A Retrospective (Tom Shone)
 
-Despite not being in her target audience, I really enjoyed Caitlin Moran's _More Than a Woman_, and _Atomic Habits_ is a very helpful book if you're trying to start or stop any behaviour in your own life, but any year I re-read _Stop-Time_ nothing else can come close to being my favourite. The Tarantino book was a Christmas present last year; I still have a similarly huge book on PT Anderson to tackle.
+Despite not being in her target audience, I really enjoyed Caitlin Moran's _More Than a Woman_, and _Atomic Habits_ is a very helpful book if you're trying to start or stop any behaviour in your own life, but any year I re-read _Stop-Time_ nothing else can come close to being my favourite. The Tarantino book was a Christmas present last year; I still have a similarly huge book on PT Anderson that I'm looking forward to tackling.
 
 ### Comics
 
