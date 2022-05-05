@@ -2,7 +2,7 @@
     <ul>
         {% for link in site.data.links %}
             <li class="{{ link.name | slugify }}">
-                <a href="{{ link.url }}" title="{{ link.name }}">{{ link.name }}</a>
+                <a href="{{ link.url }}" title="{{ link.name }}" rel="me">{{ link.name }}</a>
             </li>
         {% endfor %}
     </ul>
